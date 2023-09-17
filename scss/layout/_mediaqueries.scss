@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1000px) {
+    .desplegable{
+      margin-left: 700px;
+    }
+    .navegador {
+      position: absolute;
+      display: none;
+      transform: translate(0);
+    }
+    body {
+      background-image: url(../imagenes_de_proyecto_fondos/fondo_index_responsive.jpg);
+    }
+    .pie {
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .navbar-brand .foto {
+      height: 20px;
+      width: 20px;
+      margin-right: 3px;
+      margin-left: -7px;
+      margin-top: 0.1px;
+    }
+    .navbar-brand h1 {
+      font-size: 16px;
+    }
+    .redes {
+      font-size: xx-small;
+      margin-left: -30px;
+    }
+    .info h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-left: 65px;
+      margin-top: -5px;
+    }
+    .info p {
+      margin: 15px;
+      color: #d1d3d9;
+      font-size: 14px;
+      letter-spacing: 0.7px;
+      margin-left: 65px;
+      margin-top: 10px;
+    }
+    .info .btn_mas {
+      width: 30px;
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 220px;
+    }
+    .pie {
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+   
+    .info h2 {
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-left: 15px;
+      margin-top: -15px;
+    }
+    .info p {
+      margin: 15px;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      margin-left: 15px;
+      margin-top: 25px;
+    }
+    .info .btn_mas {
+      width: 30px;
+      margin-top: 30px;
+      margin-left: 150px;
+    }
+    .pie {
+      color: white;
+      margin-top: -10px;
+      font-size: 40%;
+    }
+  }
